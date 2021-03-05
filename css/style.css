@@ -41,8 +41,10 @@ body{
     font-weight: 800;
 }
 .nav ul li a:hover {
-    color: black;
+    color:#FF004D;
 }
 .cart-icon{
    color:#fff;
+   border-radius: 5px;
+   padding:5px 10px ;
 }
