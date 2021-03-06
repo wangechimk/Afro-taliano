@@ -92,7 +92,7 @@
       <span class="sr-only">Next</span>
     </a>
   </header>
-    
+
   <section id="menu" class="bg-1">
     <div class="container">
       <h3 class="text-center slideanimate">PIZZA MENU</h3>
@@ -122,8 +122,8 @@
           <div class="thumbnail">
             <img src="/img/pizza3.jpg" alt="Marinara">
             <p><strong>Marinara - ksh.1100</strong></p>
-            <p data-toggle="tooltip" title="Home sourced tomato sauce,oregano ,garlic,pecorino romano,basil">Toppings Info<i
-                class="fa fa-info-circle"></i></p>
+            <p data-toggle="tooltip" title="Home sourced tomato sauce,oregano ,garlic,pecorino romano,basil">Toppings
+              Info<i class="fa fa-info-circle"></i></p>
             <button class="btn" data-toggle="modal" data-target="#myModal">Order</button>
           </div>
         </article>
@@ -131,8 +131,8 @@
           <div class="thumbnail">
             <img src="/img/pizza4.jpg" alt="Montanara">
             <p><strong>Montanara - ksh.1200</strong></p>
-            <p data-toggle="tooltip" title="Light fried dough,Homemade marinara sauce,crushed garlic,dhania">Toppings Info<i
-                class="fa fa-info-circle"></i></p>
+            <p data-toggle="tooltip" title="Light fried dough,Homemade marinara sauce,crushed garlic,dhania">Toppings
+              Info<i class="fa fa-info-circle"></i></p>
             <button class="btn" data-toggle="modal" data-target="#myModal">Order</button>
           </div>
         </article>
@@ -149,8 +149,8 @@
           <div class="thumbnail">
             <img src="/img/pizza6.jpg" alt="Melanzane">
             <p><strong>Melanzane - ksh.1500</strong></p>
-            <p data-toggle="tooltip" title="Homemade tomato sauce,Homemade mozzarella,Eggplant,Ricotta,Pecorino romano">Toppings Info<i
-                class="fa fa-info-circle"></i></p>
+            <p data-toggle="tooltip" title="Homemade tomato sauce,Homemade mozzarella,Eggplant,Ricotta,Pecorino romano">
+              Toppings Info<i class="fa fa-info-circle"></i></p>
             <button class="btn" data-toggle="modal" data-target="#myModal">Order</button>
           </div>
         </article>
@@ -203,11 +203,54 @@
           <div class="thumbnail">
             <img src="/img/pizza12.jpg" alt="Nyama feast">
             <p><strong>Nyama feast - ksh.1500</strong></p>
-            <p data-toggle="tooltip" title="bbq steak,pepporoni,boerewors mince, macon ham.green pepper,sweet corn,dried tomatoes,mozzerella cheese">Toppings Info<i
-                class="fa fa-info-circle"></i></p>
+            <p data-toggle="tooltip"
+              title="bbq steak,pepporoni,boerewors mince, macon ham.green pepper,sweet corn,dried tomatoes,mozzerella cheese">
+              Toppings Info<i class="fa fa-info-circle"></i></p>
             <button class="btn" data-toggle="modal" data-target="#myModal">Order</button>
           </div>
         </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">x</button>
+          <h4><span class="glyphicon glyphicon-shopping-cart"></span>Order</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group"><label for="qty">QUANTITY</label>
+              <input type="number" class="form-control" id="qty" placeholder="How many?">
+            </div>
+            <div class="form-group"><label>SIZE</label>
+              <div class="radio">
+                <label class="radio-inline"><input type="radio" name="optradio">Small 9"</label>
+                <label class="radio-inline"><input type="radio" name="optradio">Medium 12"</label>
+                <label class="radio-inline"><input type="radio" name="optradio">Large 16"</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="sel1">CRUST</label>
+              <select class="form-control" id="sel1">
+                <option>Original Hand Tossed</option>
+                <option>Thin crust</option>
+                <option>Deep pan</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-block">ADD
+            <span class="glyphicon glyphicon-ok"></span>  
+            </button>
+          </form>
+          <div class="modal-footer">
+           <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+             <span class="glyphicon glyphicon-remove"></span>Cancel
+           </button> 
+          </div>
+        </div>
       </div>
     </div>
   </section>
