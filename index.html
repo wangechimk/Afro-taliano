@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  
+
   <title>afro-taliano</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,43 +10,88 @@
   <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-  <link rel="stylesheet" href="/css/style2.css" type="text/css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+    type="text/css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    type="text/css" />
+  <link rel="stylesheet" href="/css/style2.css" type="text/css" />
 </head>
+
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand hidden-xs" href="#myPage"><img src="/img/logo.png " width="100px"></a>
-      <a class="navbar-brand" href="#myPage">afro-taliano</a>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand hidden-xs" href="#myPage"><img src="/img/logo.png " width="100px"></a>
+        <a class="navbar-brand" href="#myPage">afro-taliano</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#menu">MENU</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="#location">LOCATION</a></li>
+          <li><a href="#about">ABOUT</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#menu">MENU</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-        <li><a href="#location">LOCATION</a></li>
-        <li><a href="#about">ABOUT</a></li>
-      </ul>
+  </nav>
+  <header id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="/img/pizza2.jpg" alt="pizza2" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>Authentic afro-taliano pizza</h3>
+          <p>Our pizza chef is a certified swiss chef with worldwide recognition and a favourite in the kenyan community
+          </p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="/img/dough.jpg" alt="Dough" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>Freshly prepared daily</h3>
+          <p>we use vegan dough that is free from anything that can cause allergens and bloating</p>
+          <p>Our dough is well prepared and set to rest for 48hrs to form a good base for our pizza</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="/img/pizza1.jpg" alt="pizza1" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>We offer the best low moisture mozzarella cheese sourced from the most resourceful kenyan farms together
+            with other ingredients</h3>
+        </div>
+      </div>
+      <div class="item">
+        <img src="/img/woodoven.jpg" alt="oven" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>wood fire oven</h3>
+          <p>We offer nothing but authenticity even in our oven which is an original pizza oven</p>
+          <p>Our oven is preheated so all pizza are freshly made on order</p>
+        </div>
+      </div>
     </div>
-  </div>
-</nav>
-<header id="myCarousel" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-  </ol>
-
-  
-
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </header>
 
   <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
 
