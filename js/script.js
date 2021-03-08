@@ -107,7 +107,7 @@ $("button.order").click(function(event){
       alert("Please select pizza size and crust"); 
     }
     else{
-      $("button.proceed").hide();
+      $("button.add").hide();
       $("#information").hide();
       $("div.choise").slideDown(1000);
     }
@@ -196,7 +196,7 @@ $("button.order").click(function(event){
     // home delivery button
     $("button.deliver").click(function(){
       $(".pizzatable").hide();
-      $(".choise h2").hide();
+      $(".choice h3").hide();
       $(".delivery").slideDown(1000);
       $("#addedprice").hide();
       $("button.deliver").hide();
@@ -207,12 +207,12 @@ $("button.order").click(function(event){
     });
 
     // when one clicks place order button
-    $("button#final-order").click(function(event){
+    $("button#add").click(function(event){
       event.preventDefault();
 
       $("#pizzatotal").hide();
       $(".delivery").hide();
-      $("button#final-order").hide();
+      $("button#add").hide();
       let deliceryamount= checkoutTotal+150;
       console.log("Final Bill is: "+deliceryamount);
       let person = $("input#name").val();
@@ -228,7 +228,7 @@ $("button.order").click(function(event){
       else {
         alert("Please fill in the details for delivery!");
         $(".delivery").show();
-        $("button#final-order").show();
+        $("button#add").show();
       }
     });
    event.preventDefault();
